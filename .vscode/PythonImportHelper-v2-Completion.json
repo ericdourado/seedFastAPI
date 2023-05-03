@@ -8,22 +8,6 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "Generator",
         "importPath": "typing",
         "description": "typing",
@@ -104,6 +88,46 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -112,6 +136,39 @@
         "documentation": {}
     },
     {
+        "label": "sqlalchemy.ext.asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
         "label": "create_async_engine",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
@@ -144,22 +201,6 @@
         "documentation": {}
     },
     {
-        "label": "create_async_engine",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncEngine",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
-        "documentation": {}
-    },
-    {
         "label": "AsyncSession",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
@@ -168,27 +209,11 @@
         "documentation": {}
     },
     {
-        "label": "async_sessionmaker",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
         "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncSession",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "JSONResponse",
-        "importPath": "fastapi.responses",
-        "description": "fastapi.responses",
-        "isExtraImport": true,
-        "detail": "fastapi.responses",
+        "detail": "sqlalchemy.future",
         "documentation": {}
     },
     {
@@ -216,19 +241,27 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "schemas.usuario_schema",
-        "description": "schemas.usuario_schema",
+        "label": "UsuarioModel",
+        "importPath": "models.usuario_model",
+        "description": "models.usuario_model",
         "isExtraImport": true,
-        "detail": "schemas.usuario_schema",
+        "detail": "models.usuario_model",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "schemas.usuario_schema",
-        "description": "schemas.usuario_schema",
+        "label": "get_session",
+        "importPath": "core.deps",
+        "description": "core.deps",
         "isExtraImport": true,
-        "detail": "schemas.usuario_schema",
+        "detail": "core.deps",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "core.deps",
+        "description": "core.deps",
+        "isExtraImport": true,
+        "detail": "core.deps",
         "documentation": {}
     },
     {
@@ -241,6 +274,14 @@
     },
     {
         "label": "gerar_hash_senha",
+        "importPath": "core.security",
+        "description": "core.security",
+        "isExtraImport": true,
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "comparar_senha",
         "importPath": "core.security",
         "description": "core.security",
         "isExtraImport": true,
@@ -273,6 +314,22 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "IntegrityError",
         "importPath": "sqlalchemy.exc",
         "description": "sqlalchemy.exc",
@@ -281,11 +338,75 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "schemas.usuario_schema",
+        "description": "schemas.usuario_schema",
+        "isExtraImport": true,
+        "detail": "schemas.usuario_schema",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "schemas.usuario_schema",
+        "description": "schemas.usuario_schema",
+        "isExtraImport": true,
+        "detail": "schemas.usuario_schema",
+        "documentation": {}
+    },
+    {
+        "label": "criar_acess_token",
+        "importPath": "core.auth",
+        "description": "core.auth",
+        "isExtraImport": true,
+        "detail": "core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "core.auth",
+        "description": "core.auth",
+        "isExtraImport": true,
+        "detail": "core.auth",
+        "documentation": {}
+    },
+    {
         "label": "usuario",
         "importPath": "api.v1.endpoints",
         "description": "api.v1.endpoints",
         "isExtraImport": true,
         "detail": "api.v1.endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose.exceptions",
+        "description": "jose.exceptions",
+        "isExtraImport": true,
+        "detail": "jose.exceptions",
         "documentation": {}
     },
     {
@@ -429,7 +550,7 @@
         "kind": 5,
         "importPath": "api.v1.endpoints.usuario",
         "description": "api.v1.endpoints.usuario",
-        "peekOfCode": "router = APIRouter()\n@router.post('/signup', status_code=status.HTTP_201_CREATED, response_model=UsuarioSchemaBase)\nasync def post_usuario(usuario: UsuarioSchemaCreate, db: AsyncSession = Depends(get_session)):\n    novo_usuario: UsuarioModel = UsuarioModel(\n        nome=usuario.nome, email=usuario.email, senha=gerar_hash_senha(usuario.senha), criado_em = str(datetime.now()), atualizado_em = str(datetime.now()))\n    async with db as session:\n        try:\n            session.add(novo_usuario)\n            await session.commit()\n            return novo_usuario",
+        "peekOfCode": "router = APIRouter()\n@router.get('/me', response_model=UsuarioSchemaBase)\nasync def me(usuario = Depends(get_current_user)):\n    return usuario\n@router.post('/login')\nasync def autentica_user(logindata: LoginData,db: AsyncSession = Depends(get_session)):\n    async with db as session:\n        query = select(UsuarioModel).filter(UsuarioModel.email == logindata.email)\n        result = await session.execute(query)\n        usuario: UsuarioSchemaCreate = result.scalars().unique().one_or_none()",
         "detail": "api.v1.endpoints.usuario",
         "documentation": {}
     },
@@ -440,6 +561,33 @@
         "description": "api.v1.api",
         "peekOfCode": "api_router = APIRouter()\napi_router.include_router(usuario.router, prefix='/usuarios', tags=['usuarios'])",
         "detail": "api.v1.api",
+        "documentation": {}
+    },
+    {
+        "label": "criar_acess_token",
+        "kind": 2,
+        "importPath": "core.auth",
+        "description": "core.auth",
+        "peekOfCode": "def criar_acess_token(usuario_id: str):\n    payload = {}\n    payload['sub'] = usuario_id\n    expiracao = str(datetime.utcnow() + timedelta(EXPIRES_IN_MIN))\n    payload['ext'] = expiracao\n    token_jwt = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITH)\n    return token_jwt\nasync def get_current_user(token: str = Depends(oauth2_scheme), db = Depends(get_session)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,",
+        "detail": "core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "EXPIRES_IN_MIN",
+        "kind": 5,
+        "importPath": "core.auth",
+        "description": "core.auth",
+        "peekOfCode": "EXPIRES_IN_MIN = 60*24*7\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\ndef criar_acess_token(usuario_id: str):\n    payload = {}\n    payload['sub'] = usuario_id\n    expiracao = str(datetime.utcnow() + timedelta(EXPIRES_IN_MIN))\n    payload['ext'] = expiracao\n    token_jwt = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITH)\n    return token_jwt\nasync def get_current_user(token: str = Depends(oauth2_scheme), db = Depends(get_session)):",
+        "detail": "core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "core.auth",
+        "description": "core.auth",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\ndef criar_acess_token(usuario_id: str):\n    payload = {}\n    payload['sub'] = usuario_id\n    expiracao = str(datetime.utcnow() + timedelta(EXPIRES_IN_MIN))\n    payload['ext'] = expiracao\n    token_jwt = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITH)\n    return token_jwt\nasync def get_current_user(token: str = Depends(oauth2_scheme), db = Depends(get_session)):\n    credentials_exception = HTTPException(",
+        "detail": "core.auth",
         "documentation": {}
     },
     {
@@ -465,7 +613,16 @@
         "kind": 2,
         "importPath": "core.security",
         "description": "core.security",
-        "peekOfCode": "def gerar_hash_senha(senha: str) -> str:\n    return CRIPTO.hash(senha)",
+        "peekOfCode": "def gerar_hash_senha(senha: str) -> str:\n    return CRIPTO.hash(senha)\ndef comparar_senha(senha: str, hash_senha: str) -> bool:\n    return CRIPTO.verify(senha, hash_senha)",
+        "detail": "core.security",
+        "documentation": {}
+    },
+    {
+        "label": "comparar_senha",
+        "kind": 2,
+        "importPath": "core.security",
+        "description": "core.security",
+        "peekOfCode": "def comparar_senha(senha: str, hash_senha: str) -> bool:\n    return CRIPTO.verify(senha, hash_senha)",
         "detail": "core.security",
         "documentation": {}
     },
@@ -474,7 +631,7 @@
         "kind": 5,
         "importPath": "core.security",
         "description": "core.security",
-        "peekOfCode": "CRIPTO = CryptContext(schemes=['bcrypt'], deprecated='auto')\ndef gerar_hash_senha(senha: str) -> str:\n    return CRIPTO.hash(senha)",
+        "peekOfCode": "CRIPTO = CryptContext(schemes=['bcrypt'], deprecated='auto')\ndef gerar_hash_senha(senha: str) -> str:\n    return CRIPTO.hash(senha)\ndef comparar_senha(senha: str, hash_senha: str) -> bool:\n    return CRIPTO.verify(senha, hash_senha)",
         "detail": "core.security",
         "documentation": {}
     },
@@ -501,7 +658,16 @@
         "kind": 6,
         "importPath": "schemas.usuario_schema",
         "description": "schemas.usuario_schema",
-        "peekOfCode": "class UsuarioSchemaCreate(UsuarioSchemaBase):\n    senha: str\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class UsuarioSchemaCreate(UsuarioSchemaBase):\n    senha: str\n    class Config:\n        orm_mode = True\nclass LoginData(SCBaseModel):\n    email: EmailStr\n    senha: str",
+        "detail": "schemas.usuario_schema",
+        "documentation": {}
+    },
+    {
+        "label": "LoginData",
+        "kind": 6,
+        "importPath": "schemas.usuario_schema",
+        "description": "schemas.usuario_schema",
+        "peekOfCode": "class LoginData(SCBaseModel):\n    email: EmailStr\n    senha: str",
         "detail": "schemas.usuario_schema",
         "documentation": {}
     },

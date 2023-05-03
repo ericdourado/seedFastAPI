@@ -19,3 +19,10 @@ class UsuarioSchemaCreate(UsuarioSchemaBase):
     class Config:
         orm_mode = True
 
+
+class LoginData(SCBaseModel):
+    email: EmailStr
+    senha: str
+    
+
+
